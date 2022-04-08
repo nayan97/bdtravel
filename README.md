@@ -1,4 +1,3 @@
-## this is a travel project demo.
+## This is a travel project demo.
 
-
-<img src="Capture.png" width="400">
+<img src="img/Capture.png" width="400">
