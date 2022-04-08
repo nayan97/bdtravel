@@ -1,3 +1,3 @@
 ## This is a travel project demo.
 
-<img src="img/Capture.png" width="400">
+<img src="img/Capture.PNG" width="400">
