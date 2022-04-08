@@ -1,0 +1,447 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+}
+
+
+#header{
+  height: 790px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/002.jpg);
+  background-size: cover;
+  background-position:center ;
+  background-attachment: fixed;
+  padding-top:20px ;
+  text-align: center;
+  color:#fff
+
+
+}
+
+#header img{
+  width: 170px;
+  float: left;
+}
+
+.login-btn{
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid#fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff ;
+  float: right;
+  text-transform: capitalize;
+
+
+}
+#header h1{
+  padding: 260px 0 0 0;
+  font-size: 55px;
+  text-transform: capitalize;
+}
+#header p{
+  margin: 20px 0 18px 0;
+  font-size: 16px;
+
+}
+
+
+.input-group{
+  width:90% !important;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #fff;
+  margin: auto;
+  padding: 2px;
+ 
+
+}
+.form-control{
+  border: 0!important;
+  border-radius: 30px!important;
+  margin: 2px;
+  box-shadow: none !important;
+
+
+}
+
+.form-control-text{
+  width: 100px;
+  background: linear-gradient(#00ff7e,#1f3d90);
+  border: 0 !important;
+  color: #fff !important;
+  padding: 0 25px !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+
+}
+
+
+
+
+/*=================  features  =================*/
+
+.features{
+  padding: 100px 0;
+}
+
+.box{  padding: 10px;}
+.features h1{
+  padding-bottom: 30px ;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.feature-img img{
+  width: 100%;
+
+
+}
+.price{
+  width:50px ;
+  height: 50px;
+  background: #ff5722;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+
+}
+.feature-img{
+  position: relative;
+}
+
+.rating{
+  padding: 3px;
+  float: right !important;
+  background: #fff;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+}
+
+
+.features .fas, .far{
+  font-size: 15px;
+  color: #ff5722;
+
+}
+.feature-details{
+  padding: 20px;
+  text-align: justify;
+}
+.feature-details h4{
+  font-weight: 600;
+  margin-top: 20px;
+  text-transform: capitalize;
+
+}
+.feature-details .far, .far{
+  margin-right: 5px;
+
+}
+.feature-details span{
+  text-transform: capitalize;
+
+}
+.feature-box{
+  box-shadow: 0 0 10px 1px #F1F3F4;
+  margin-bottom: 30px;
+
+
+}
+
+/*=================  Gallary  =================*/
+
+
+.gallary{
+  padding: 100px 0;
+  background: rgb(235, 227, 227);
+}
+.gallary h1{
+  padding-bottom: 30px ;
+  text-align: center;
+  text-transform: capitalize;
+}
+.travellel-box img{
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.travellel-box{
+  position: relative;
+  margin-bottom:30px ;
+}
+.travellel-box img:hover{
+  transform:scale(1.1)
+}
+.travellel-box h4{
+  display: block;
+  width: 200px;
+  color: #fff;
+  text-shadow: -2px 2px 2px #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute ;
+  top:50%;
+  left:50%;
+  text-transform: capitalize;
+  transform:translate(-50%,-50%);
+
+
+}
+
+
+/*==============  banner ==============*/
+
+
+
+.banner{
+  height: 80%;
+  background-image: url(img/002.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 15%;
+
+}
+ .banner-iner{
+  height: 420px;
+ }
+.banner-highlights{
+
+  padding: 70px 0;
+  background:rgba(0,0,0,0.7);
+  text-align: center;
+  color: #fff;
+
+}
+.booking-btn{
+  width: 120px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid#fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff ;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+
+
+/*============== user-feedback ==============*/
+
+.user-feedback{
+  padding: 100px 0;
+}
+.user-feedback h1{
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.user-review{
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+  padding-bottom: 50px;
+}
+.user-review p{
+  padding: 50px 10px 10px 10px;
+  text-align: justify;
+}
+
+.user-feedback img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+  margin: -30px 0 20px 40%;
+
+}
+
+.user-review p::before{
+  content: '\201d';
+  display: block;
+  position: absolute;
+  font-size: 100px;
+  color: #6495ed;
+  font-family: sans-serif;
+  left: 44%;
+  top: -20px;
+
+
+}
+
+
+
+/*===============  footer  ===============*/
+
+
+
+.footer{
+  background-image: linear-gradient(#2d557d, #9610fd);
+  color: #fff;  
+  padding: 70px 20px 10px;   
+
+}
+
+
+.footer-logo {
+width: 50px;
+padding: 10px 0;
+
+}
+
+.footer p{
+  text-align: justify;
+  font-size: 15px;
+}
+.footer h4{
+  text-align: left;
+  text-transform: capitalize;
+  margin: 15px 0 35px 3px;
+}
+
+.footer-features li{
+  margin-top: 18px !important;
+}
+.footer ul li{
+  margin: 5px 0;
+  list-style: none;
+}
+.footer ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+ }
+ .footer ul li a:hover{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.contuct-us p{
+text-transform: capitalize;
+margin-bottom: 5px;
+
+}
+.follow-us i:hover{
+  background: #fff;
+  color: #000;
+}
+
+.footer .far, .fab{
+  padding: 10px;
+  font-size: 15px ;
+  background: linear-gradient(#2d557d, #9610fd);
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+.footer .fas, .fa-facebook-f{
+  padding: 14px;
+  font-size: 15px ;
+  background: linear-gradient(#2d557d, #9610fd);
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.footer hr{
+  margin-top: 10px;
+  background: #efefef;
+}
+
+.copy{
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============================
+           
+
+</p>
+.social-link  a i{
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+  color: black;
+  text-align: center ;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+  margin: 0 30px;
+  border-radius: 50%;
+
+  overflow: hidden;
+   
+ 
+
+}
+.social-link a i.fab{
+  font-size: 30px;
+  line-height: 80px;
+  position: relative;
+  z-index: 10;
+  transition: color 0.5s;
+}
+
+.social-link a ::after{
+content: '';
+width: 100%;
+height: 100%;
+top: -90px;;
+left: 0;
+background: linear-gradient(-45deg, #ed1c94, #ffec17);
+position: absolute;
+transition: 0.5s;
+}
+
+
+.social-link a :hover::after{
+  top: 0; 
+
+
+}
+
+
+.social-link a :hover .fab{
+  color: #fff;
+
+
+}
+
+
+
+
+===================================*/
+
